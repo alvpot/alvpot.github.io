@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Client Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
     </style>
   </head>
@@ -11,7 +12,7 @@
       p1.innerText = window.navigator.userAgent
       document.body.appendChild(p1)
       const p2 = document.createElement("p")
-      p2.innerText = `window inner size: ${window.innerWidth} x ${window.innerHeight}`
+      p2.innerText = `window.innerWidth: ${window.innerWidth}, window.innerHeight ${window.innerHeight}`
       document.body.appendChild(p2)
     </script>
   </body>
